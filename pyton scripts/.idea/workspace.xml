@@ -14,7 +14,8 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/pyton scripts$maxDownload.coverage" NAME="maxDownload Coverage Results" MODIFIED="1414760178608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyton scripts$threshold.coverage" NAME="threshold Coverage Results" MODIFIED="1414161508315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pyton scripts$machine_pattern.coverage" NAME="machine_pattern Coverage Results" MODIFIED="1414772231419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyton scripts$machine_pattern.coverage" NAME="machine_pattern Coverage Results" MODIFIED="1414776955112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pyton scripts$maxActivity_ip.coverage" NAME="maxActivity_ip Coverage Results" MODIFIED="1414779575739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyton scripts$log_anlysis.coverage" NAME="log_anlysis Coverage Results" MODIFIED="1414161023067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyton scripts$referer.coverage" NAME="referer Coverage Results" MODIFIED="1414764277953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyton scripts$ipissues.coverage" NAME="ipissues Coverage Results" MODIFIED="1414763945666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -35,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/maxActivity_ip.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="480">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="16" selection-end-column="16" />
+              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -51,10 +52,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="machine_pattern.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="bad_ip_from _maxActivity_ip" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bad_ip_from _maxActivity_ip">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.95454544" vertical-offset="1218" max-vertical-offset="1665">
+              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="machine_pattern.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/machine_pattern.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.036585364" vertical-offset="150" max-vertical-offset="585">
+            <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="585">
               <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
               <folding />
             </state>
@@ -80,6 +91,7 @@
         <option value="$PROJECT_DIR$/ip_identities.py" />
         <option value="$PROJECT_DIR$/referer.py" />
         <option value="$PROJECT_DIR$/machine_pattern.py" />
+        <option value="$PROJECT_DIR$/bad_ip_from _maxActivity_ip" />
       </list>
     </option>
   </component>
@@ -144,7 +156,7 @@
     <property name="recentsLimit" value="5" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
-  <component name="RunManager" selected="Python.machine_pattern">
+  <component name="RunManager" selected="Python.maxActivity_ip">
     <configuration default="false" name="maxDownload" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -183,25 +195,6 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="threshold" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pyton scripts" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threshold.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="referer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -235,6 +228,25 @@
       <module name="pyton scripts" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/machine_pattern.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="maxActivity_ip" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyton scripts" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/maxActivity_ip.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -393,17 +405,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.maxDownload" />
       <item index="1" class="java.lang.String" itemvalue="Python.ipissues" />
-      <item index="2" class="java.lang.String" itemvalue="Python.threshold" />
-      <item index="3" class="java.lang.String" itemvalue="Python.referer" />
-      <item index="4" class="java.lang.String" itemvalue="Python.machine_pattern" />
+      <item index="2" class="java.lang.String" itemvalue="Python.referer" />
+      <item index="3" class="java.lang.String" itemvalue="Python.machine_pattern" />
+      <item index="4" class="java.lang.String" itemvalue="Python.maxActivity_ip" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.machine_pattern" />
-        <item index="1" class="java.lang.String" itemvalue="Python.referer" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ipissues" />
-        <item index="3" class="java.lang.String" itemvalue="Python.maxDownload" />
-        <item index="4" class="java.lang.String" itemvalue="Python.threshold" />
+        <item index="0" class="java.lang.String" itemvalue="Python.maxActivity_ip" />
+        <item index="1" class="java.lang.String" itemvalue="Python.machine_pattern" />
+        <item index="2" class="java.lang.String" itemvalue="Python.referer" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ipissues" />
+        <item index="4" class="java.lang.String" itemvalue="Python.maxDownload" />
       </list>
     </recent_temporary>
   </component>
@@ -583,10 +595,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/machine_pattern.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="585">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/maxActivity_ip.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="480">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="16" selection-end-column="16" />
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -599,10 +619,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/machine_pattern.py">
+    <entry file="file://$PROJECT_DIR$/bad_ip_from _maxActivity_ip">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.036585364" vertical-offset="150" max-vertical-offset="585">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.95454544" vertical-offset="1218" max-vertical-offset="1665">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding />
         </state>
       </provider>
