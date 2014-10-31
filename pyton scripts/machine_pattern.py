@@ -11,11 +11,9 @@ for line in lines:
     try:
         d = json.loads(line)
         if 'sessionid' in d:
-            print d['sesionid']
             if 'content' in dict:
                 content = json.loads(d['content'])
                 if 'articleid' in content:
-                    print content['articleid']
                     if d['sessionid'] in dict:
                         arr = dict[d['sessionid']]
                         arr.append(content['articleid'])
