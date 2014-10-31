@@ -27,13 +27,10 @@ for line in lines:
         continue
 
 i = 0
+count = 0
 for session in dict:
-    if  dict[session] > 100:
-        try:
-            print str(session) + " " + str(username[session]) + " " + str(dict[session])
-            i = i + 1
-        except:
-            print "keyerror for dictionary"
-    if i > 100:
-        break
+    count = count + int(dict[session])
 
+count = count/len(dict)
+
+print count
